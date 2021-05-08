@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-nav-link {
+  margin-right: 14px;
+}
