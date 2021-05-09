@@ -13,23 +13,22 @@ function Header() {
           </a>
         </Link>
         <nav className={styles["header-nav"]}>
+          {/* <Link href="/">
+            <a className={`button button-default ${styles["header-nav-link"]}`}>
+              bla bla
+            </a>
+          </Link>
           <Link href="/">
             <a className={`button button-default ${styles["header-nav-link"]}`}>
-              Docs
+              bla
             </a>
-          </Link>
-          <Link href="/">
-            <a className={`button button-default ${styles["header-nav-link"]}`}>
-              About
-            </a>
-          </Link>
-          <Link href="/">
-            <a
-              className={`button button-outline-orange ${styles["header-nav-link"]}`}
-            >
-              HELP US
-            </a>
-          </Link>
+          </Link> */}
+          <a
+            href="mailto:asliserkan@yandex.com"
+            className={`button button-outline-orange ${styles["header-nav-link"]}`}
+          >
+            İletişim
+          </a>
         </nav>
       </div>
     </div>
