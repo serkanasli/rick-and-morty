@@ -36,9 +36,21 @@
 }
 
 .showcase {
+  position: relative;
   background-color: #24282f;
-  padding-top: 1em;
+  transition: background-color 1s;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
 }
+
+.showcase:hover {
+  background-color: #3c3e44;
+}
+
+.showcase:hover .character-card {
+  background-color: #24282f;
+}
+
 .character-card-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -51,6 +63,7 @@
   height: 230px;
   max-height: 230px;
   background-color: #3c3e44;
+  transition: background-color 1s;
   border-radius: 20px;
 }
 
@@ -98,11 +111,13 @@
   height: 0.6em;
 }
 .character-short-detail {
-  width: 350px;
+  width: 300px;
   font-size: 1em;
   font-weight: 200;
 }
 
-.showcase:hover {
-  background-color: #ddd;
+.pages-buttons {
+  position: fixed;
+  z-index: 2;
+  right: 0px;
 }
