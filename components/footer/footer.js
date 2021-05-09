@@ -27,7 +27,7 @@ function Footer() {
       </Link>
       <h5>
         by{" "}
-        <Link href="https://github.com/serkanasli/">
+        <Link href="https://www.serkanasli.com/">
           <a className={styles["link"]}>Serkan ASLI</a>
         </Link>{" "}
         2021
