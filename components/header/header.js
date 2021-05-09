@@ -27,7 +27,7 @@ function Header() {
             href="mailto:asliserkan@yandex.com"
             className={`button button-outline-orange ${styles["header-nav-link"]}`}
           >
-            İletişim
+            Contact
           </a>
         </nav>
       </div>

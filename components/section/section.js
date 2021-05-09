@@ -2,13 +2,11 @@ import Search from "./search";
 import styles from "./section.module.css";
 import Showcase from "./showcase";
 
-function Section() {
+function Section({ characters }) {
   return (
     <section className={styles["section-wrapper"]}>
-      <div className="container">
-        <Search />
-      </div>
-      <Showcase />
+      <Search />
+      <Showcase characters={characters} />
     </section>
   );
 }

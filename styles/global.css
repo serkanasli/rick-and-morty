@@ -12,6 +12,9 @@ body {
 .mr-05 {
   margin-right: 0.5em !important;
 }
+.opacity-05 {
+  opacity: 0.5;
+}
 
 .button {
   display: inline-block;
